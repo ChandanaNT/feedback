@@ -1,9 +1,11 @@
 {
   "name": "storybook-uitk-feedback",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Provide feedback to the UITK team",
   "keywords": [
-    "uitk", "feedback", "storybook-addons"
+    "uitk",
+    "feedback",
+    "storybook-addons"
   ],
   "repository": {
     "type": "git",
