@@ -27,13 +27,9 @@ function displayToolState(selector, state) {
     preElement.style.setProperty("padding", "1rem");
     preElement.style.setProperty("background-color", "#eee");
     preElement.style.setProperty("border-radius", "3px");
-    preElement.style.setProperty("max-width", "600px");
+    preElement.style.setProperty("max-width", "730px");
     rootElement.appendChild(preElement);
   }
 
-  preElement.innerText = `This snippet is injected by the withGlobals decorator.
-It updates as the user interacts with the ⚡ tool in the toolbar above.
-
-${JSON.stringify(state, null, 2)}
-`;
+  preElement.innerHTML = `<p>Please use the smiley button to raise an issue or contribute using the <a href="https://github.expedia.biz/Brand-Expedia/uitk-react/wiki/contribute">contributing guide</a></p>`;
 }

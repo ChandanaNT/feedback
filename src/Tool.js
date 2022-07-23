@@ -12,7 +12,6 @@ export const Tool = () => {
   //   [myAddon]
   // );
   function toggleMyTool() {
-    console.log("Triggered the add on");
     window.open("https://github.expedia.biz/Brand-Expedia/uitk-react/issues/new", "_blank");
   }
   return (
